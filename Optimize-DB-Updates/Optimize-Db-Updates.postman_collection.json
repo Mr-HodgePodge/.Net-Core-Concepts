@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "53997c8a-ab7c-4387-b618-8af50e8c17c7",
+		"name": "Optimize-Db-Updates",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17133348"
+	},
+	"item": [
+		{
+			"name": "increase-salaries",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7239/increase-salaries?companyId=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7239",
+					"path": [
+						"increase-salaries"
+					],
+					"query": [
+						{
+							"key": "companyId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "increase-salaries-sql",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7239/increase-salaries-sql?companyId=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7239",
+					"path": [
+						"increase-salaries-sql"
+					],
+					"query": [
+						{
+							"key": "companyId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "increase-salaries-dapper",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7239/increase-salaries-dapper?companyId=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7239",
+					"path": [
+						"increase-salaries-dapper"
+					],
+					"query": [
+						{
+							"key": "companyId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
